@@ -14,6 +14,10 @@
 		3BDB460C290DE16B00C6CDA3 /* exploring_compilersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDB460B290DE16B00C6CDA3 /* exploring_compilersTests.swift */; };
 		3BDB4616290DE16B00C6CDA3 /* exploring_compilersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDB4615290DE16B00C6CDA3 /* exploring_compilersUITests.swift */; };
 		3BDB4618290DE16B00C6CDA3 /* exploring_compilersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDB4617290DE16B00C6CDA3 /* exploring_compilersUITestsLaunchTests.swift */; };
+		3BDB462529107D5300C6CDA3 /* CompilerExplorer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDB462429107D5300C6CDA3 /* CompilerExplorer.swift */; };
+		3BDB4627291308E400C6CDA3 /* BuildView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDB4626291308E400C6CDA3 /* BuildView.swift */; };
+		3BDB462929130CA000C6CDA3 /* SettingsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDB462829130CA000C6CDA3 /* SettingsStore.swift */; };
+		3BDB462B2913123100C6CDA3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BDB462A2913123100C6CDA3 /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		3BDB4611290DE16B00C6CDA3 /* exploring-compilersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "exploring-compilersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BDB4615290DE16B00C6CDA3 /* exploring_compilersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exploring_compilersUITests.swift; sourceTree = "<group>"; };
 		3BDB4617290DE16B00C6CDA3 /* exploring_compilersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = exploring_compilersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3BDB462429107D5300C6CDA3 /* CompilerExplorer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompilerExplorer.swift; sourceTree = "<group>"; };
+		3BDB4626291308E400C6CDA3 /* BuildView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuildView.swift; sourceTree = "<group>"; };
+		3BDB462829130CA000C6CDA3 /* SettingsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsStore.swift; sourceTree = "<group>"; };
+		3BDB462A2913123100C6CDA3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,8 +104,12 @@
 			children = (
 				3BDB45FA290DE16A00C6CDA3 /* exploring_compilersApp.swift */,
 				3BDB45FC290DE16A00C6CDA3 /* ContentView.swift */,
+				3BDB462A2913123100C6CDA3 /* SettingsView.swift */,
+				3BDB462829130CA000C6CDA3 /* SettingsStore.swift */,
+				3BDB462429107D5300C6CDA3 /* CompilerExplorer.swift */,
 				3BDB45FE290DE16A00C6CDA3 /* Assets.xcassets */,
 				3BDB4600290DE16A00C6CDA3 /* Preview Content */,
+				3BDB4626291308E400C6CDA3 /* BuildView.swift */,
 			);
 			path = "exploring-compilers";
 			sourceTree = "<group>";
@@ -257,7 +269,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BDB462529107D5300C6CDA3 /* CompilerExplorer.swift in Sources */,
+				3BDB4627291308E400C6CDA3 /* BuildView.swift in Sources */,
 				3BDB45FD290DE16A00C6CDA3 /* ContentView.swift in Sources */,
+				3BDB462B2913123100C6CDA3 /* SettingsView.swift in Sources */,
+				3BDB462929130CA000C6CDA3 /* SettingsStore.swift in Sources */,
 				3BDB45FB290DE16A00C6CDA3 /* exploring_compilersApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

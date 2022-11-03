@@ -8,14 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject public var settingsStore: SettingsStore = SettingsStore()
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        TabView {
+            BuildView(store: settingsStore).tabItem{
+                Label("Build", systemImage: "star")
+            }
+            
+            SettingsView(store: settingsStore).tabItem {
+                Label("Settings", systemImage: "gear")
+            }
+                
         }
-        .padding()
     }
 }
 
